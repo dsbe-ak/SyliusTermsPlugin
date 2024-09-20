@@ -27,11 +27,6 @@
                 <option name="groups">setono_sylius_terms</option>
             </constraint>
         </property>
-        <property name="content">
-            <constraint name="NotBlank">
-                <option name="groups">setono_sylius_terms</option>
-            </constraint>
-        </property>
         <constraint name="Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity">
             <option name="fields">
                 <value>locale</value>

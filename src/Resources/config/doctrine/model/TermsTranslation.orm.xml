@@ -13,7 +13,7 @@
         <field name="name" type="string"/>
         <field name="slug" column="slug" type="string"/>
         <field name="label" type="string"/>
-        <field name="content" type="text"/>
+        <field name="content" type="text" nullable="true"/>
 
         <unique-constraints>
             <unique-constraint columns="locale,slug" name="uniq_slug"/>
