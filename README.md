@@ -65,7 +65,7 @@ return [
 
 **NOTE** that you must instantiate the plugin before the grid bundle, else you will see an exception like `You have requested a non-existent parameter "setono_sylius_terms.model.terms.class".`
 
-### Step 3: Import routing
+### Step 3: Import configuration
 
 ```yaml
 # config/routes/setono_sylius_terms.yaml
@@ -75,6 +75,13 @@ setono_sylius_terms:
 ```
 
 There's also a version for non-localized stores: `@SetonoSyliusTermsPlugin/Resources/config/routes_no_locale.yaml`
+
+```yaml
+# config/packages/_sylius.yaml
+
+imports:
+    - { resource: '@SetonoSyliusTermsPlugin/config/config.yaml' }
+```
 
 ### Step 4: Update your database schema
 

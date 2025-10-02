@@ -1,0 +1,8 @@
+sylius_twig_hooks:
+    hooks:
+        'sylius_admin.terms.create.content.form':
+            sections:
+                template: 'admin/terms/form.html.twig'
+        'sylius_admin.terms.update.content.form':
+            sections:
+                template: 'admin/terms/form.html.twig'
