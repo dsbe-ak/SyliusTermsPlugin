@@ -6,4 +6,3 @@ setono_sylius_terms_admin_terms:
         redirect: update
         grid: setono_sylius_terms_terms
     type: sylius.resource
-    prefix: admin

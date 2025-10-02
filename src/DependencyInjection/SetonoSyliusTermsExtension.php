@@ -68,7 +68,10 @@ final class SetonoSyliusTermsExtension extends AbstractResourceExtension impleme
                             'type' => 'twig',
                             'label' => 'setono_sylius_terms.ui.channels',
                             'options' => [
-                                'template' => '@SetonoSyliusTermsPlugin/admin/grid/field/channels.html.twig',
+                                'template' => '@SyliusAdmin/shared/grid/field/channels.html.twig',
+                                'vars' => [
+                                    'th_class' => 'w-1 text-center',
+                                ],
                             ],
                         ],
                     ],
