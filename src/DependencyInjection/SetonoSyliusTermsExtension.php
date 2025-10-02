@@ -23,7 +23,7 @@ final class SetonoSyliusTermsExtension extends AbstractResourceExtension impleme
          * @var array{forms: array<class-string, array{label: string|null}>, routing: array{terms: string}, resources: array} $config
          */
         $config = $this->processConfiguration($this->getConfiguration([], $container), $configs);
-        $loader = new XmlFileLoader($container, new FileLocator(__DIR__ . '/../Resources/config'));
+        $loader = new XmlFileLoader($container, new FileLocator(__DIR__ . '/../../config'));
 
         foreach ($config['forms'] as $form => $formConfig) {
             $reflectionClass = new ReflectionClass($form);
