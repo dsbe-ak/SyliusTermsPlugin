@@ -19,10 +19,7 @@
                     {{ form_row(form.channels) }}
                 </div>
                 <div class="col-12">
-                    {{ form_row(form.name) }}
-                    {{ form_row(form.slug) }}
-                    {{ translations.default(hookable_metadata.context.form.translations) }}
-    {#                {{ translationFormWithSlug(form.translations, '@SyliusAdmin/Product/_slugField.html.twig', terms) }}#}
+                    {{ translations.default(form.translations) }}
                 </div>
             </div>
         </div>

@@ -80,7 +80,7 @@ There's also a version for non-localized stores: `@SetonoSyliusTermsPlugin/Resou
 # config/packages/_sylius.yaml
 
 imports:
-    - { resource: '@SetonoSyliusTermsPlugin/config/config.yaml' }
+    - { resource: '@SetonoSyliusTermsPlugin/Resources/config/app/config.yaml' }
 ```
 
 ### Step 4: Update your database schema
