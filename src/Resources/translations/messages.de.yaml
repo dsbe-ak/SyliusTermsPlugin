@@ -25,7 +25,7 @@ setono_sylius_terms:
       name_help: Der Name wird sowohl als Referenz, als auch als Linktext verwendet, wenn der Konditionen-Link angezeigt wird
       code: Code
       slug: Slug
-      label: Etikett
+      label: Bezeichnung
       label_help: Verwenden Sie [link:Link text], um anzugeben wo im Text der Link eingefügt werden muss
       content: Inhalt
       content_help: Wenn der Inhalt leer ist, wird das Etikett neben dem Kontrollkästchen keinen Link enthalten
