@@ -23,7 +23,7 @@ final class TermsRuntime implements RuntimeExtensionInterface
      * Returns a <a href="...">...</a> link to the terms if the given terms code exists
      * else it returns an empty string
      */
-    public function link(Environment $env, string $code, string $template = null): string
+    public function link(Environment $env, string $code, ?string $template = null): string
     {
         $terms = $this->termsRepository->findOneByChannelAndLocaleAndCode(
             $this->channelContext->getChannel(),
