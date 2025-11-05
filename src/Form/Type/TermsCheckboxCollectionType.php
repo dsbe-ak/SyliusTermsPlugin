@@ -56,6 +56,7 @@ final class TermsCheckboxCollectionType extends AbstractType
                             'groups' => $validationGroups,
                         ]),
                     ],
+                    'translation_domain' => false,
                 ]);
             }
         });
